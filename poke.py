@@ -8,7 +8,7 @@ app=Flask(__name__)
 @app.route("/")
 def introduccion():
     respuesta={
-        "mensaje":"esta es una api de pokedex, perrita"
+        "mensaje":"esta es una api de pokedex, perrita :3"
     }
     return jsonify(respuesta)
 
